@@ -37,6 +37,7 @@ MAIN_HEADS =			\
 	main/param.h		\
 	main/parse.h		\
 	main/parsers.h		\
+	main/portable-dirent.h	\
 	main/promise.h		\
 	main/ptag.h		\
 	main/ptrarray.h		\
@@ -77,6 +78,7 @@ MAIN_SRCS =				\
 	main/options.c			\
 	main/param.c			\
 	main/parse.c			\
+	main/portable-scandir.c		\
 	main/promise.c			\
 	main/ptag.c			\
 	main/ptrarray.c			\
