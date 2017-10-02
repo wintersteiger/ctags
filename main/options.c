@@ -3577,11 +3577,6 @@ extern void readOptionConfiguration (void)
 	}
 }
 
-static void installOptlibPathList (void)
-{
-	OptlibPathList = stringListNew ();
-}
-
 /*
 *   Option initialization
 */
@@ -3589,7 +3584,7 @@ static void installOptlibPathList (void)
 extern void initOptions (void)
 {
 	OptionFiles = stringListNew ();
-	installOptlibPathList ();
+	OptlibPathList = stringListNew ();
 
 	verboseSearchPathList (OptlibPathList,  "OptlibPathList");
 
