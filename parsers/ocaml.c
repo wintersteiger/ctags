@@ -2076,7 +2076,7 @@ static void ocamlInitialize (const langType language)
 
 extern parserDefinition *OcamlParser (void)
 {
-	static const char *const extensions[] = { "ml", "mli", "aug", NULL };
+	static const char *const extensions[] = { "ml", "mli", "aug", "fst", "fsti", NULL };
 	static const char *const aliases[] = { "tuareg", /* mode name of emacs */
 										   "caml",	 /* mode name of emacs */
 										   NULL };
